@@ -37,7 +37,7 @@
     const unsigned short duration;
   } boot_frame_t;
 
-  #include "../../../_Bootscreen.h"
+  #include "../../../c_Bootscreen.h"
 
   #if ENABLED(CUSTOM_BOOTSCREEN_ANIMATED) && DISABLED(CUSTOM_BOOTSCREEN_ANIMATED_FRAME_TIME) && !defined(CUSTOM_BOOTSCREEN_FRAME_TIME)
     #define CUSTOM_BOOTSCREEN_FRAME_TIME 500 // (ms)

@@ -39,17 +39,17 @@
   #undef STATUS_BED_X
 
   /**
-   * Custom _Statusscreen.h files can define:
+   * Custom c_Statusscreen.h files can define:
    * - A custom logo image
    * - A custom heater bitmap
    * - A custom fan bitmap / animation
    *
    * See the included examples for guidance
    */
-  #include "../../../_Statusscreen.h"
+  #include "../../../c_Statusscreen.h"
 
   #ifdef STATUS_SCREENWIDTH
-    #error "Your custom _Statusscreen.h needs to be converted for Marlin 2.0."
+    #error "Your custom c_Statusscreen.h needs to be converted for Marlin 2.0."
   #endif
 
 #endif
