@@ -53,30 +53,30 @@
 //
 // Steppers
 //
-#define X_STEP_PIN                            25
-#define X_DIR_PIN                             23
-#define X_ENABLE_PIN                          27  // 44
+#define X_STEP_PIN                            66 // 85
+#define X_DIR_PIN                             67 // 84
+#define X_ENABLE_PIN                          69 // 82
 
-#define Y_STEP_PIN                            32  // 33
-#define Y_DIR_PIN                             33  // 31, 32
-#define Y_ENABLE_PIN                          31  // 32
+#define Y_STEP_PIN                            65 // 86
+#define Y_DIR_PIN                             76 // 68
+#define Y_ENABLE_PIN                          75 // 67
 
-#define Z_STEP_PIN                            35  // 35
-#define Z_DIR_PIN                             36
-#define Z_ENABLE_PIN                          34  // 34
+#define Z_STEP_PIN                            72 // 65
+#define Z_DIR_PIN                             14 // 64
+#define Z_ENABLE_PIN                          15 // 63
 
-#define E0_STEP_PIN                           42
-#define E0_DIR_PIN                            43
-#define E0_ENABLE_PIN                         37
+#define E0_STEP_PIN                           83 // 49
+#define E0_DIR_PIN                            82 // 48
+#define E0_ENABLE_PIN                         81 // 47
 
-#define E1_STEP_PIN                           49
-#define E1_DIR_PIN                            47
-#define E1_ENABLE_PIN                         48
+// #define E1_STEP_PIN                           49
+// #define E1_DIR_PIN                            47
+// #define E1_ENABLE_PIN                         48
 
-#define MOTOR_CURRENT_PWM_X_PIN               11
-#define MOTOR_CURRENT_PWM_Y_PIN               44
-#define MOTOR_CURRENT_PWM_Z_PIN               45
-#define MOTOR_CURRENT_PWM_E_PIN               46
+// #define MOTOR_CURRENT_PWM_X_PIN               11
+// #define MOTOR_CURRENT_PWM_Y_PIN               44
+// #define MOTOR_CURRENT_PWM_Z_PIN               45
+// #define MOTOR_CURRENT_PWM_E_PIN               46
 
 // Motor current PWM conversion, PWM value = MotorCurrentSetting * 255 / range
 #ifndef MOTOR_CURRENT_PWM_RANGE
