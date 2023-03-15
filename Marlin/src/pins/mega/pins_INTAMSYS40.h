@@ -41,7 +41,7 @@
 //
 #define X_STOP_PIN                            54 // 97
 #define Y_STOP_PIN                            78 // 04
-#define Z_MIN_PIN                             05 // 05
+#define Z_MIN_PIN                             5 // 05
 #define Z_MAX_PIN                             79 // 08
 
 #ifndef Z_MIN_PROBE_PIN
