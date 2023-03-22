@@ -44,9 +44,9 @@
 #define Z_MIN_PIN                             5 // 05
 #define Z_MAX_PIN                             79 // 08
 
-#ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                     69
-#endif
+// #ifndef Z_MIN_PROBE_PIN
+//   #define Z_MIN_PROBE_PIN                     69
+// #endif
 
 #define FIL_RUNOUT_PIN                        10
 
