@@ -48,8 +48,7 @@
   #define Z_MIN_PROBE_PIN                     11 // 24
 #endif
 
-// #define FIL_RUNOUT_PIN                        10 // 23
-#define FIL_RUNOUT_PIN                        22 // 50
+#define FIL_RUNOUT_PIN                        10 // 23
 
 //
 // Steppers
