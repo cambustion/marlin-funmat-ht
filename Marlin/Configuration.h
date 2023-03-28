@@ -1803,7 +1803,7 @@
 #if ENABLED(MIN_SOFTWARE_ENDSTOPS)
   #define MIN_SOFTWARE_ENDSTOP_X
   #define MIN_SOFTWARE_ENDSTOP_Y
-  #define MIN_SOFTWARE_ENDSTOP_Z
+  // #define MIN_SOFTWARE_ENDSTOP_Z
   #define MIN_SOFTWARE_ENDSTOP_I
   #define MIN_SOFTWARE_ENDSTOP_J
   #define MIN_SOFTWARE_ENDSTOP_K
@@ -2190,8 +2190,8 @@
 #define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT 10 // X_CENTER  // X point for Z homing
-  #define Z_SAFE_HOMING_Y_POINT 10 // Y_CENTER  // Y point for Z homing
+  #define Z_SAFE_HOMING_X_POINT 20 // X_CENTER  // X point for Z homing
+  #define Z_SAFE_HOMING_Y_POINT 20 // Y_CENTER  // Y point for Z homing
 #endif
 
 // Homing speeds (linear=mm/min, rotational=°/min)
