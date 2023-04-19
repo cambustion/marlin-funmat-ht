@@ -34,7 +34,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                            12  // Uses High Temp Present Jumper Pin
+#define SERVO0_PIN                            19 // 45 - reusing E1_STEP_PIN
 
 //
 // Limit Switches
@@ -45,7 +45,8 @@
 #define Z_MAX_PIN                             79 // 08
 
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                     11 // 24
+  // #define Z_MIN_PROBE_PIN                     11 // 24 - Nozzle Leveling Sensor
+  #define Z_MIN_PROBE_PIN                     44 // 40 - BLTouch Leveling Sensor
 #endif
 
 #define FIL_RUNOUT_PIN                        10 // 23
@@ -69,14 +70,9 @@
 #define E0_DIR_PIN                            82 // 48
 #define E0_ENABLE_PIN                         81 // 47
 
-#define E1_STEP_PIN                           19 // 45
-#define E1_DIR_PIN                            42 // 42
-#define E1_ENABLE_PIN                         43 // 41
-
-// #define MOTOR_CURRENT_PWM_X_PIN               11
-// #define MOTOR_CURRENT_PWM_Y_PIN               44
-// #define MOTOR_CURRENT_PWM_Z_PIN               45
-// #define MOTOR_CURRENT_PWM_E_PIN               46
+// #define E1_STEP_PIN                           19 // 45
+// #define E1_DIR_PIN                            42 // 42
+// #define E1_ENABLE_PIN                         43 // 41
 
 // Motor current PWM conversion, PWM value = MotorCurrentSetting * 255 / range
 #ifndef MOTOR_CURRENT_PWM_RANGE
