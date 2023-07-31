@@ -1416,7 +1416,6 @@
   //#define MAGLEV_TRIGGER_PIN 11     // Set to the connected digital output
   #define MAGLEV_TRIGGER_DELAY 15     // Changing this risks overheating the coil
 #endif
-
 /**
  * Touch-MI Probe by hotends.fr
  *
@@ -1769,8 +1768,10 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE (260-2)
-#define Y_BED_SIZE (260-2)
+// #define X_BED_SIZE 260
+// #define Y_BED_SIZE 260
+#define X_BED_SIZE 258
+#define Y_BED_SIZE 258
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS 1
